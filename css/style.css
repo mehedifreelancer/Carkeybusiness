@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    color: gray
+}
+
+#top,
+#topForMedia {
+    background: #f5f5f5;
+    padding: 20px;
+    ;
+}
+
+#top a,
+#topForMedia a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    max-width: 60%;
+
+
+
+}
+
+#top a:hover,
+#topForMedia a:hover {
+
+    color: #4f79bb;
+
+
+
+}
+
+
+#top i,
+#topForMedia i {
+    margin-right: 10px;
+}
+
+
+
+
+
+.fa-facebook {
+    background: #ddd;
+    padding: 8px 12px;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.fa-twitter {
+    background: #ddd;
+    padding: 8px 10px;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+
+
+
+.fa-facebook:hover {
+    background: #43609c;
+    color: white;
+
+}
+
+.fa-twitter:hover {
+    background: #1da1f2;
+    color: white;
+}
+
+
+
+.navbar-default {
+    background: white;
+    border: white;
+    margin: 15px
+}
+
+.navbar-brand img {
+    margin-top: -30px;
+    border-radius: 8px;
+    height: 80px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #43609c;
+    font-weight: bold;
+    background: #ddd;
+
+
+}
+
+#mainBackground h1 {
+    font-size: 55px;
+
+}
+
+
+
+
+#mainBackground {
+    background: #dddddd;
+    padding: 50px 0px
+}
+
+#mainBackground img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 400px;
+
+}
+
+
+
+.introduction {
+    color: gray;
+    font-weight: bold;
+
+    border-radius: 10px;
+    padding: 10px
+}
+
+.mainBackgroundElement {
+    margin: 30px 0px;
+}
+
+.introduction p {
+
+    margin: 5px 0px;
+    font-size: 15px
+}
+
+
+.box {
+    height: 3px;
+    background: #4f79bb;
+    max-width: 40%;
+    margin: auto;
+
+}
+
+.boxWhite {
+    height: 3px;
+    background: white;
+    max-width: 40%;
+    margin: auto;
+
+}
+
+.theme {
+    color: #4f79bb;
+}
+
+#keyImagesEnquery {
+    margin: 100px 0px;
+}
+
+
+
+#keyImagesEnquery i {
+    margin: 0px 20px
+}
+
+.no {
+    margin: 50px;
+
+
+}
+
+#help {
+    background: #4f79bb;
+    padding: 20px
+}
+
+
+#help h2 {
+    color: white;
+
+}
+
+.helpElements {
+    margin: 45px 0px;
+}
+
+.helpElements ul li {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+.helpElements ul i {
+    float: left;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px
+}
+
+
+/* code for accordion which is in comment box in html page */
+
+/*
+
+.ui-accordion .ui-accordion-header {
+
+    padding: 20px;
+    background: white;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    color: gray;
+}
+
+
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+    background: white;
+    border: none;
+}
+
+.ui-accordion .ui-accordion-header-active {
+    border: none;
+    background: #50afff;
+    color: white;
+}
+
+.services {
+    margin-top: 30px;
+}
+*/
+
+.services i {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+
+#keyImagesEnquery h4 {
+    margin-top: 10px;
+    color: black;
+}
+
+#keyImagesEnquery p {
+    margin-top: 20px;
+    font-size: 17px
+}
+
+#keyImagesEnquery img {
+
+    width: 100%;
+    height: 280px;
+}
+
+
+#enqueryMessege {
+    margin: 100px 0px;
+}
+
+#enqueryMessege i {
+    font-size: 16px;
+    margin: 0px 10px;
+    font-weight: bold;
+
+}
+
+#enqueryMessege h3 {
+    margin-bottom: 30px;
+
+}
+
+#enqueryMessege h3 a {
+    color: black;
+
+}
+
+#enqueryMessege h3 a:hover {
+    text-decoration: none;
+    color: #4f79bb;
+
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-primary {
+    margin-top: 5px;
+}
+
+#brandImages {
+    margin: 100px 0px;
+}
+
+#footer {
+    background: #4f79bb;
+    padding: 25px;
+    color: white;
+
+}
+
+#footer h5 {
+    margin: 20px;
+
+}
+
+#goToTop a {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: none;
+}
+
+#goToTop img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #4f79bb;
+    border-radius: 50%;
+    -webkit-transition: .7s;
+    transition: .7s;
+
+
+}
+
+#goToTop img:hover {
+    height: 60px;
+    width: 60px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+
+
+
+
+.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    background: rgba(79, 121, 187, .5);
+    color: white;
+    padding: 16px;
+    right: 1%;
+    border-radius: 50%;
+    z-index: 1;
+
+
+
+}
+
+
+
+.fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    background: rgba(79, 121, 187, .5);
+    color: white;
+    padding: 16px;
+    border-radius: 50%;
+    ;
+    z-index: 1;
+
+}
